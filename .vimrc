@@ -33,6 +33,7 @@ iab RH2 #=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~#
 " Reset backspace for Mac OS compatability
 set backspace=indent,eol,start
 
+" Handles YAML Frontmatter
 autocmd BufNewFile,BufRead */source/**/*.haml,*/source/**/*.markdown syntax match Comment /\%^---\_.\{-}---$/
 
 " Miscellaneous
