@@ -1,5 +1,0 @@
-#!/bin/bash
-
-sh ~/src/onpoint/cron.sh > /dev/null
-cat ~/.balances.txt
-
