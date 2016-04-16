@@ -1,0 +1,4 @@
+for f in $(ls -da1 .dotfiles/*); do ln -s $f .; done 
+for f in $(ls -da1 .dotfiles/.*); do ln -s $f .; done 
+ls -al .
+

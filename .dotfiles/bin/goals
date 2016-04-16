@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+exec "vim ~/src/goals/#{Time.now.strftime("%Y-%m-%d")}.md"
+
