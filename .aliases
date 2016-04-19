@@ -1,0 +1,46 @@
+# Colorize ls
+alias ls='ls -G'
+alias reload='source ~/.bash_profile'
+alias b='popd > /dev/null'
+
+
+alias ll='ls -la'
+
+#=====================================================================# 
+#     GIT ALIASES
+
+alias gst="git status"
+alias ga="git add ."
+alias gpr='git pull --rebase'
+alias gb="git branch"
+alias gba="git branch -a"
+alias gl="git pull"
+alias gh="git push"
+alias gd="git diff"
+alias gdm="git diff | mate"
+alias gc="git commit -v"
+alias gca="git commit -a -v"
+alias gk="gitk --all"
+alias gn="nub ."
+
+# Writeroom clone (saves $24.99)
+alias wr='mvim -S ~/.vim/writeroom.vim'
+
+alias rsp='bundle exec rspec'
+alias cuc='bundle exec cucumber'
+alias rak='bundle exec rake'
+alias mm='bundle exec middleman'
+alias ev='bundle exec evergreen run'
+
+alias zt='zeus test'
+alias zc='zeus console'
+alias zrak='zeus rake'
+alias zr='zeus runner'
+
+alias t='sh ~/bin/todo.sh'
+
+alias glo='git log --pretty=oneline --abbrev-commit'
+
+alias h='/usr/local/bin/heroku'
+
+alias tmux="TERM=screen-256color-bce tmux"
